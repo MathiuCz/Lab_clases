@@ -11,4 +11,12 @@ var_1["distrito"] = "La Victoria"
 var_1["nombre"] = "José"
 var_1["habilitado"] = True
 
+#Solo valores
+var_values = var_1.values()
+print(var_values)
 print(var_1)
+
+#obtener los valores en especifico de un key
+solo_nombre = var_1.get("nombre")
+#Tambien funciona d1["nombre"]
+print(solo_nombre)
